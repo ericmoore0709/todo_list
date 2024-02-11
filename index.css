@@ -1,0 +1,17 @@
+body {
+    background-color: #555;
+    color: ghostwhite;
+}
+
+.input_container {
+    display: inline;
+}
+
+li:hover, li.checked:hover {
+    color: blueviolet;
+}
+
+li.checked {
+    color: red;
+    text-decoration: line-through;
+}

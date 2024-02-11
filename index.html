@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO App</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <button id="save_config">Save</button>
+        <button id="load_config">Load</button>
+        <form>
+            <div class="input_container">
+                <label for="task_text">What needs to be done?</label>
+                <input type="text" id="task_text" />
+            </div>
+            <input type="submit" value="Add" />
+        </form>
+        <div id="tasks_container">
+            <h2>Tasks</h2>
+            <ul id="task_list"></ul>
+            <button id="clear_tasks">Clear All Completed</button>
+        </div>
+    </div>
+</body>
+
+</html>
