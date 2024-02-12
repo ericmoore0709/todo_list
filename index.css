@@ -7,6 +7,11 @@ body {
     display: inline;
 }
 
+li {
+    list-style-type: none;
+    width: fit-content;
+}
+
 li:hover, li.checked:hover {
     color: blueviolet;
 }
@@ -14,4 +19,13 @@ li:hover, li.checked:hover {
 li.checked {
     color: red;
     text-decoration: line-through;
+}
+
+.delete_button {
+    margin-left: .5em;
+}
+
+.delete_button:hover {
+    color: red;
+    background-color: grey;
 }
